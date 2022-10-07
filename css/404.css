@@ -1,0 +1,86 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap";
+
+:root {
+    --background-color:   #e5e5e5;
+    --text-color-default: #000;
+    --text-color-link:    rebeccapurple;
+    --text-current-url:   #666;
+    --text-error-code:    gray;
+
+    --theme-btn-bg-color: rgb(255, 255, 255);
+    --theme-btn-hover-bg-color: rgb(200, 200, 200);
+    --theme-btn-color: #000;
+    --theme-btn-shadow-color: #000;
+}
+
+
+body {
+    height: calc(100vh - 170px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: var(--background-color);
+    color: var(--text-color-default);
+}
+
+* {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+}
+
+.content {
+    text-align: center;
+    width: 100vh;
+    height: 100px;
+    transition: all .2s;
+}
+
+.spooky p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+  
+a:link, a:visited {
+    color: var(--text-color-link);
+}
+
+
+
+#theme-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: var(--theme-btn-bg-color);
+    color: var(--theme-btn-color);
+    box-shadow: 1px 1px 5px var(--theme-btn-shadow-color);
+    font-size: 25px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+#theme-btn:hover {
+    background-color: var(--theme-btn-hover-bg-color);
+    box-shadow: 1px 1px 5px var(--theme-btn-shadow-color);
+    transition-duration: .5s;
+}
+
+
+
+#span404 {
+    color: var(--text-error-code);
+}
+#url {
+    color: var(--text-current-url);
+}
+#return {
+    color: var(--text-color-link); 
+    text-decoration: none;
+}
