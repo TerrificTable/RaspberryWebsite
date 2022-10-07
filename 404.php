@@ -11,15 +11,6 @@
     <!-- FontAwesome -->
     <script defer src="assets/fontawesome/js/all.js"></script>
     <link href="assets/fontawesome/css/all.css"     rel="stylesheet">
-    
-
-    <!-- <script defer src="assets/fontawesome/js/brands.js"     ></script> -->
-    <!-- <script defer src="assets/fontawesome/js/fontawesome.js"></script> -->
-
-    <!-- <link href="assets/fontawesome/css/fontawesome.css"     rel="stylesheet"> -->
-    <!-- <link href="assets/fontawesome/css/solid.css"           rel="stylesheet"> -->
-    <!-- <link href="assets/fontawesome/css/brands.css"          rel="stylesheet"> -->
-    <!-- <link href="assets/fontawesome/css/v5-font-face.css"    rel="stylesheet"> -->
     <!-- FontAwesome -->
 
     <title>404 Not Found</title>
