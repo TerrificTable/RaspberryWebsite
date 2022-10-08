@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="css/404.css">
-    <script src="js/theme.js" defer></script>
+    <link rel="stylesheet" href="/css/404.css">
+    <script src="/js/theme.js" defer></script>
 
     <!-- FontAwesome -->
-    <script defer src="assets/fontawesome/js/all.js"></script>
-    <link href="assets/fontawesome/css/all.css"     rel="stylesheet">
+    <script defer src="/assets/fontawesome/js/all.js"></script>
+    <link href="/assets/fontawesome/css/all.css"     rel="stylesheet">
     <!-- FontAwesome -->
 
     <title>404 Not Found</title>
@@ -34,3 +34,8 @@
     
 </body>
 </html>
+
+<!-- 
+    bg -> rgba(245,245,245,var(--tw-bg-opacity))
+
+ -->

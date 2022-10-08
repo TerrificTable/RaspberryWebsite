@@ -1,7 +1,7 @@
 
 var Theme = "light";
 let dark_theme = `:root {
-    --background-color: #2e2e2e;
+    --background-color: #000;
     --text-color-default: #fff;
     --text-color-link: #9900ff;
     --text-current-url: #c0c0c0;
