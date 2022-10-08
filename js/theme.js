@@ -33,7 +33,6 @@ function createCookie(fieldname, fieldvalue, expiry_Months) {
     document.cookie = fieldname + "=" + fieldvalue + 
                       ";" + expires + ";path=/";
 }
-
 function readCookie(cname) {
     var name = cname + "=";
     var decoded_cookie = decodeURIComponent(document.cookie);
